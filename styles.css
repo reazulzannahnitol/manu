@@ -511,13 +511,13 @@ html, body {
 @media (max-width: 768px) {
     .rectangle {
         position: relative; /* Anchor for the menu button */
-        width: 17vw; /* Adjust the width of the yellow rectangle */
+        width: 19vw; /* Adjust the width of the yellow rectangle */
     }
 
     .menu-btn {
         display: block; /* Show on mobile */
         position: absolute;
-        top: 12%; /* Center vertically in the rectangle */
+        top: 11%; /* Center vertically in the rectangle */
         right: 1px; /* Align to the rectangle's right edge */
         transform: translateY(-50%); /* Center vertically */
         color: #056579; /* Default color */
